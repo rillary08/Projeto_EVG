@@ -84,6 +84,20 @@
         "fromTable": "F_matricula",
         "toColumn": "Cod_localidade",
         "toTable": "Dim_localidade"
+      },
+      {
+        "name": "b0051ed0-b82d-bcb4-b4cc-eec311d2c0f9",
+        "fromColumn": "poder",
+        "fromTable": "F_matricula",
+        "toColumn": "Cod_poder",
+        "toTable": "Dim_poder"
+      },
+      {
+        "name": "884ef066-2ee0-5809-1d8d-f5108cba4cb7",
+        "fromColumn": "esfera",
+        "fromTable": "F_matricula",
+        "toColumn": "Cod_esfera",
+        "toTable": "Dim_esfera"
       }
     ],
     "sourceQueryCulture": "pt-BR",

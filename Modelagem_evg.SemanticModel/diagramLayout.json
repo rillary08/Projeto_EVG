@@ -5,13 +5,13 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 0
+        "y": 12.553625146339527
       },
       "nodes": [
         {
           "location": {
-            "x": 1837,
-            "y": 260.75
+            "x": 886.44642084500913,
+            "y": 567.4619548740103
           },
           "nodeIndex": "DCalendario",
           "nodeLineageTag": "cd42b4e1-ced0-473c-843e-30507e6fb64b",
@@ -23,8 +23,8 @@
         },
         {
           "location": {
-            "x": 0,
-            "y": 116.25
+            "x": 200.57590628658488,
+            "y": 703.86381343852872
           },
           "nodeIndex": "Dim_Curso",
           "nodeLineageTag": "4fc1aff7-282f-4293-af88-8fa3b9c48853",
@@ -36,8 +36,8 @@
         },
         {
           "location": {
-            "x": 284,
-            "y": 176.25
+            "x": 300.02573507562784,
+            "y": 0
           },
           "nodeIndex": "Dim_esfera",
           "nodeLineageTag": "847faf4e-ed0d-4f5a-ba0c-741360228004",
@@ -49,8 +49,8 @@
         },
         {
           "location": {
-            "x": 568,
-            "y": 152.25
+            "x": 522.37342820056051,
+            "y": 902.55362514633941
           },
           "nodeIndex": "Dim_localidade",
           "nodeLineageTag": "45beaa85-739b-4d6b-b63e-6ef4786c9248",
@@ -62,8 +62,8 @@
         },
         {
           "location": {
-            "x": 852,
-            "y": 104.25
+            "x": 0,
+            "y": 154.94619088826619
           },
           "nodeIndex": "Dim_pessoa",
           "nodeLineageTag": "9def6420-7ad5-4058-b87f-407ea1321a5f",
@@ -75,8 +75,8 @@
         },
         {
           "location": {
-            "x": 1136,
-            "y": 176.25
+            "x": 682.88123077325611,
+            "y": 0
           },
           "nodeIndex": "Dim_poder",
           "nodeLineageTag": "8b24ca0b-b199-4588-a139-2367b1299a26",
@@ -88,8 +88,8 @@
         },
         {
           "location": {
-            "x": 1420,
-            "y": 140.25
+            "x": 890.2248052176185,
+            "y": 236.57276268770573
           },
           "nodeIndex": "Dim_turma",
           "nodeLineageTag": "450451eb-de6f-4f14-9a89-d73fa4615280",
@@ -101,10 +101,11 @@
         },
         {
           "location": {
-            "x": 2403,
-            "y": 234.75
+            "x": 473.50296318915173,
+            "y": 229.68038091117342
           },
           "nodeIndex": "F_matricula",
+          "nodeLineageTag": "43df2a45-7ba4-44f3-9c79-64bc10d9f2b5",
           "size": {
             "height": 300,
             "width": 234
@@ -113,7 +114,7 @@
         }
       ],
       "name": "Todas as tabelas",
-      "zoomValue": 100,
+      "zoomValue": 50,
       "pinKeyFieldsToTop": false,
       "showExtraHeaderInfo": false,
       "hideKeyFieldsWhenCollapsed": false,
