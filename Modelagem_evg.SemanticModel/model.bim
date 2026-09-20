@@ -133,19 +133,6 @@
             "summarizeBy": "none"
           },
           {
-            "name": "nacionalidade",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "b2f5485e-59dc-49ad-a713-2f92128912f7",
-            "sourceColumn": "nacionalidade",
-            "summarizeBy": "none"
-          },
-          {
             "name": "cod_turma",
             "annotations": [
               {
@@ -157,32 +144,6 @@
             "formatString": "0",
             "lineageTag": "befcc66a-9fba-4e9f-8210-74571ba5dc7d",
             "sourceColumn": "cod_turma",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "nome_turma",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "2d438825-bb10-47b4-b395-2fd4709a4c16",
-            "sourceColumn": "nome_turma",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "modalidade_turma",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "3a5e3e6a-4e51-4218-98b9-980242a0f27b",
-            "sourceColumn": "modalidade_turma",
             "summarizeBy": "none"
           },
           {
@@ -198,33 +159,6 @@
             "lineageTag": "bc24012b-161d-4ccf-ad9e-50cebb023820",
             "sourceColumn": "cod_curso",
             "summarizeBy": "none"
-          },
-          {
-            "name": "nome_curso",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "858824c9-d12c-41ec-bc6a-b57b191e217a",
-            "sourceColumn": "nome_curso",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "carga_horaria",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "0f53f018-c4ed-4936-99a9-c77baaa977c2",
-            "sourceColumn": "carga_horaria",
-            "summarizeBy": "sum"
           },
           {
             "name": "dt_fim",
@@ -256,84 +190,6 @@
             ]
           },
           {
-            "name": "sit_turma",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "addfd45d-179f-489c-a606-257a0311cf6c",
-            "sourceColumn": "sit_turma",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "instituicao",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "dd2ddf2b-15d7-4b12-b994-fb828878e972",
-            "sourceColumn": "instituicao",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "municipio_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "f427e503-1f69-49ca-aa2c-a22fdda96242",
-            "sourceColumn": "municipio_pessoa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "uf_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "ef09f72f-f988-4612-bf98-3565577f3a95",
-            "sourceColumn": "uf_pessoa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "conteudista",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "bf29a8e4-e5ba-4ee6-8f77-f9531830b92f",
-            "sourceColumn": "conteudista",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "tematica",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "b91c248d-d01e-4f81-8d73-1611ab3e30cc",
-            "sourceColumn": "tematica",
-            "summarizeBy": "none"
-          },
-          {
             "name": "codigo_pessoa",
             "annotations": [
               {
@@ -344,46 +200,6 @@
             "dataType": "string",
             "lineageTag": "e47616af-b7fe-467c-983f-541104162142",
             "sourceColumn": "codigo_pessoa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "sexo",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "15700f5b-b43c-4432-ab94-b6e11fd0d169",
-            "sourceColumn": "sexo",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "idade",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "864f4183-393c-4f8f-aef2-10ec3d7376b0",
-            "sourceColumn": "idade",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "sit_matricula",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "fb13b335-9175-4e6a-929d-b2f613712cb8",
-            "sourceColumn": "sit_matricula",
             "summarizeBy": "none"
           },
           {
@@ -410,46 +226,6 @@
             "dataType": "string",
             "lineageTag": "8aa5e645-42dc-4a3c-a0e3-59aa39bbf64e",
             "sourceColumn": "esfera",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "email_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "c612772b-1721-4f7a-9667-9b393285a91a",
-            "sourceColumn": "email_pessoa",
-            "summarizeBy": "none"
-          },
-          {
-            "name": "telefone_pessoa",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "int64",
-            "formatString": "0",
-            "lineageTag": "730f0bfe-55c7-434d-af1c-2ee77f1b9c73",
-            "sourceColumn": "telefone_pessoa",
-            "summarizeBy": "sum"
-          },
-          {
-            "name": "email_conteudista",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ],
-            "dataType": "string",
-            "lineageTag": "33cb3ca6-2089-47eb-b3e7-c89d6d357fd9",
-            "sourceColumn": "email_conteudista",
             "summarizeBy": "none"
           },
           {
@@ -482,9 +258,15 @@
                 "    #\"Texto Aparado\" = Table.TransformColumns(#\"Tipo Alterado1\",{{\"municipio_pessoa\", Text.Trim, type text}, {\"uf_pessoa\", Text.Trim, type text}}),",
                 "    #\"Valor Substituído\" = Table.ReplaceValue(#\"Texto Aparado\",\"\",\"Desconhecido\",Replacer.ReplaceValue,{\"municipio_pessoa\", \"uf_pessoa\"}),",
                 "    #\"Consultas Mescladas\" = Table.NestedJoin(#\"Valor Substituído\", {\"municipio_pessoa\", \"uf_pessoa\"}, Dim_localidade, {\"municipio_pessoa\", \"uf_pessoa\"}, \"Dim_localidade\", JoinKind.LeftOuter),",
-                "    #\"Dim_localidade Expandido\" = Table.ExpandTableColumn(#\"Consultas Mescladas\", \"Dim_localidade\", {\"Cod_localidade\"}, {\"Cod_localidade\"})",
+                "    #\"Dim_localidade Expandido\" = Table.ExpandTableColumn(#\"Consultas Mescladas\", \"Dim_localidade\", {\"Cod_localidade\"}, {\"Cod_localidade\"}),",
+                "    #\"Colunas Reordenadas\" = Table.ReorderColumns(#\"Dim_localidade Expandido\",{\"cod_matricula\", \"dt_matricula\", \"nacionalidade\", \"cod_turma\", \"nome_turma\", \"modalidade_turma\", \"sit_turma\", \"cod_curso\", \"nome_curso\", \"carga_horaria\", \"dt_fim\", \"instituicao\", \"municipio_pessoa\", \"uf_pessoa\", \"conteudista\", \"tematica\", \"codigo_pessoa\", \"sexo\", \"idade\", \"sit_matricula\", \"poder\", \"esfera\", \"email_pessoa\", \"telefone_pessoa\", \"email_conteudista\", \"Cod_localidade\"}),",
+                "    #\"Colunas Removidas\" = Table.RemoveColumns(#\"Colunas Reordenadas\",{\"nome_turma\", \"modalidade_turma\", \"sit_turma\"}),",
+                "    #\"Colunas Reordenadas1\" = Table.ReorderColumns(#\"Colunas Removidas\",{\"cod_matricula\", \"dt_matricula\", \"nacionalidade\", \"cod_turma\", \"cod_curso\", \"nome_curso\", \"carga_horaria\", \"conteudista\", \"tematica\", \"email_conteudista\", \"dt_fim\", \"instituicao\", \"municipio_pessoa\", \"uf_pessoa\", \"codigo_pessoa\", \"sexo\", \"idade\", \"sit_matricula\", \"poder\", \"esfera\", \"email_pessoa\", \"telefone_pessoa\", \"Cod_localidade\"}),",
+                "    #\"Colunas Removidas1\" = Table.RemoveColumns(#\"Colunas Reordenadas1\",{\"nome_curso\", \"carga_horaria\", \"conteudista\", \"tematica\", \"email_conteudista\"}),",
+                "    #\"Colunas Reordenadas2\" = Table.ReorderColumns(#\"Colunas Removidas1\",{\"cod_matricula\", \"dt_matricula\", \"cod_turma\", \"cod_curso\", \"dt_fim\", \"municipio_pessoa\", \"uf_pessoa\", \"codigo_pessoa\", \"instituicao\", \"sexo\", \"idade\", \"email_pessoa\", \"telefone_pessoa\", \"nacionalidade\", \"sit_matricula\", \"poder\", \"esfera\", \"Cod_localidade\"}),",
+                "    #\"Colunas Removidas2\" = Table.RemoveColumns(#\"Colunas Reordenadas2\",{\"instituicao\", \"sexo\", \"idade\", \"email_pessoa\", \"telefone_pessoa\", \"nacionalidade\", \"municipio_pessoa\", \"uf_pessoa\", \"sit_matricula\"})",
                 "in",
-                "    #\"Dim_localidade Expandido\""
+                "    #\"Colunas Removidas2\""
               ],
               "type": "m"
             }
